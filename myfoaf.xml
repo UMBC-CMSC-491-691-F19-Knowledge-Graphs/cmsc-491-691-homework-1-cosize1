@@ -1,0 +1,34 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Connor Sizemore</foaf:name>
+<foaf:title>Mr</foaf:title>
+<foaf:givenname>Connor</foaf:givenname>
+<foaf:family_name>Sizemore</foaf:family_name>
+<foaf:mbox_sha1sum>9087c647a3c236d458007f50ff4b738e108b814a</foaf:mbox_sha1sum>
+<foaf:phone rdf:resource="tel:4102419567"/>
+<foaf:age>24</foaf:age>
+<foaf:gender>male</foaf:gender>
+<foaf:schoolHomepage rdf:resource="umbc.edu"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Josh Hne</foaf:name>
+<foaf:mbox_sha1sum>92ed2e41a7d2f4680885addeffc1342553720b8b</foaf:mbox_sha1sum></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Tom Laflame</foaf:name>
+<foaf:mbox_sha1sum>f11e71ccd19575ae9720a9ea5062649816e9f9d2</foaf:mbox_sha1sum></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Kevin Hamilton</foaf:name>
+<foaf:mbox_sha1sum>54815832a6a1b5ac9608c3b0e93e05d5333f2812</foaf:mbox_sha1sum></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>
